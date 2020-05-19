@@ -44,10 +44,28 @@ function generateColor() {
 generateColor();
 
 /*
-4. Create a function that creates and returns car objects. Car objects should have a field that holds a string for their color. This function should utilize generateColor to assign a random color to each car that is created. This function should also take an input parameter for the productionRun, which is added as a field to the returned car.
-5. Create a JavaScript function called constructCars. This function should take in two parameters: a number, and a string production number. This function should use the number input and the car creating function from requirement #4 to build that many car objects and store them in an array. Each car built with this function should be assigned the same production run from the input parameter. This function should return an array of car objects.
-6. Create a JavaScript function called displayAllCars that takes an array as input and does not return anything. This function should iterate through the array and display each element on the console.
-￼7. Create a JavaScript function called colorCount that takes an array as input. The function should search through that array looking for car objects and counting how many cars of each color there are. The function then runs one console log for each color, showing the count for it. For example: yellow: 1, red: 4, etc.
-Random Number Generators
-Math.floor((Math.random() * 20) + 1); //random num 1 - 20
+4. Create a function that creates and returns car objects. Car objects should have a field that 
+holds a string for their color. This function should utilize generateColor to assign a random 
+color to each car that is created. This function should also take an input parameter for the 
+productionRun, which is added as a field to the returned car.
+*/ 
+
+/*
+5. Create a JavaScript function called constructCars. This function should take in two parameters: 
+a number, and a string production number. This function should use the number input and the car 
+creating function from requirement #4 to build that many car objects and store them in an array. 
+Each car built with this function should be assigned the same production run from the input parameter. 
+This function should return an array of car objects.
+*/
+
+/*
+6. Create a JavaScript function called displayAllCars that takes an array as input and does not return
+ anything. This function should iterate through the array and display each element on the console.
+ */
+
+ /*
+￼7. Create a JavaScript function called colorCount that takes an array as input. The function should 
+search through that array looking for car objects and counting how many cars of each color there are. 
+The function then runs one console log for each color, showing the count for it. For example: 
+yellow: 1, red: 4, etc.
 */
