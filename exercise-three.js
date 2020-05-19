@@ -49,17 +49,26 @@ holds a string for their color. This function should utilize generateColor to as
 color to each car that is created. This function should also take an input parameter for the 
 productionRun, which is added as a field to the returned car.
 */ 
-var cars = [     // array filled with objects, each with their own properties
+
+var car = {
+    name: "Volvo",
+    makeYear: '2012',
+    color: 'Red'
+};
+
+function createCarObj (carName, prodRunNum) = {
+        var name = carName;
+        color = generateColor();
+        productionRun: "a",
+    };
+
+function carInventory (prodRunNum) = [     // array filled with objects, each with their own properties
     {
-        name:
-        color:
-        productionRun: 
+        name: "test",
+        color: "b",
+        productionRun: "a"
     },
-    {},
-    {},
-    {},
-    {},
-]
+];
 
 var carObject = {
     name: "Volvo",
@@ -117,7 +126,7 @@ var carObject = {
 };
 
 
-
+https://teamtreehouse.com/library/the-student-record-search-challenge-solution
 
 */
 
@@ -130,7 +139,11 @@ creating function from requirement #4 to build that many car objects and store t
 Each car built with this function should be assigned the same production run from the input parameter. 
 This function should return an array of car objects.
 */
+ function constructCars (number, productionNum) {
 
+
+
+ };
 /*
 6. Create a JavaScript function called displayAllCars that takes an array as input and does not return
  anything. This function should iterate through the array and display each element on the console.
