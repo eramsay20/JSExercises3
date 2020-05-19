@@ -49,6 +49,79 @@ holds a string for their color. This function should utilize generateColor to as
 color to each car that is created. This function should also take an input parameter for the 
 productionRun, which is added as a field to the returned car.
 */ 
+var cars = [     // array filled with objects, each with their own properties
+    {
+        name:
+        color:
+        productionRun: 
+    },
+    {},
+    {},
+    {},
+    {},
+]
+
+var carObject = {
+    name: "Volvo",
+    color: generateColor(),
+
+};
+/*
+        var car = {
+            make: "Ford",
+            model: "Fiesta",
+            year: 2015
+            }
+        for ( var property in car ) {
+            console.log( property );
+        }
+
+ var students = [
+   {
+    name: 'Eric',
+    track: 'Python', 
+    achievements:'3', 
+    points: '406'
+   },
+   {
+    name: 'Sara',
+    Track: 'CSS', 
+    achievements: '11', 
+    points: '623'
+   },
+   {
+    name: 'Kevin',
+    track: 'HTML', 
+    achievements: '7', 
+    points: '165'
+   },
+    {
+    name: 'May',
+    track: 'Java', 
+    achievements:'3', 
+    points: '890'
+   },
+    {
+    name: 'John',
+    Track: 'JSON', 
+    achievements: '4', 
+    points: '1239'
+   }
+ ];
+  var i;
+  for(i=0; i<students.length; i++) {
+     document.write (`Student: ${students[i].name} <br>`);
+     document.write (`Track: ${students[i].track} <br>`);
+     document.write (`Achievements: ${students[i].achievements} <br>`); 
+     document.write (`Points: ${students[i].points} <br><br>`);
+};
+
+
+
+
+*/
+
+
 
 /*
 5. Create a JavaScript function called constructCars. This function should take in two parameters: 
